@@ -10,6 +10,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
+                sh 'git log'
                 sh 'rvm --version'
             }
         }
