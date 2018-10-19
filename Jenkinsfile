@@ -7,6 +7,8 @@ pipeline {
                 echo 'Building..'
                 sh 'ls'
                 sh 'pwd'
+                sh 'ruby -v'
+                sh 'python --version'
             }
         }
         stage('Test') {
