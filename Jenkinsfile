@@ -7,7 +7,7 @@ pipeline {
                 echo 'Building..'
                 sh 'ls'
                 sh 'pwd'
-                sh 'ruby -v'
+                #sh 'ruby -v'
                 sh 'env'
                 sh 'python --version'
             }
