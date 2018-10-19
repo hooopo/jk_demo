@@ -8,6 +8,7 @@ pipeline {
                 sh 'ls'
                 sh 'pwd'
                 sh 'ruby -v'
+                sh 'env'
                 sh 'python --version'
             }
         }
